@@ -1,0 +1,10 @@
+#capitalize each word
+import string
+
+def main():
+    s=str(raw_input())
+
+    s= string.capwords(s)
+    print s
+
+main()
