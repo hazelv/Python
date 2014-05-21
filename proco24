@@ -1,0 +1,16 @@
+##program takes binary nums & turns into reg nums
+
+def main():
+    placeHolder=0
+    Sum=0
+
+    binary= raw_input()
+
+    for x in binary:
+        Sum= Sum + (x*2^placeHolder)
+        placeHolder= placeHolder +1
+
+    print "The num is:" + str(Sum)
+
+if __name__ == '__main__':
+    main()
